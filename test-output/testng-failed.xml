@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [new tours test Suite]">
+  <test name="end to end testing(failed)">
+    <classes>
+      <class name="purushotham1.conformation">
+        <methods>
+          <include name="conformationtest"/>
+        </methods>
+      </class> <!-- purushotham1.conformation -->
+      <class name="purushotham1.bookaflight">
+        <methods>
+          <include name="booking"/>
+        </methods>
+      </class> <!-- purushotham1.bookaflight -->
+    </classes>
+  </test> <!-- end to end testing(failed) -->
+</suite> <!-- Failed suite [new tours test Suite] -->

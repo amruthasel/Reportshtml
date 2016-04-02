@@ -1,0 +1,11 @@
+<suite name="new tours test Suite" >
+  <test name="end to end testing">
+    <classes>
+      <class name="purushotham1.login"/>
+      <class name="purushotham1.findflight"/>
+      <class name="purushotham1.selectaflight"/> 
+      <class name="purushotham1.bookaflight"/>
+      <class name="purushotham1.conformation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

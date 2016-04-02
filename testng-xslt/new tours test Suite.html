@@ -1,0 +1,870 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               All methods in suite
+               
+               <b>new tours test Suite</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">2</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">3</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">5</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">60%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">13s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"
+                   checked=""></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"
+                   checked=""></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"
+                checked=""></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="purushotham1.conformation_conformationtest_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.conformation_conformationtest_byStatus_failed_FAIL1_details')">conformationtest()</a>
+               </td>
+               <td nowrap="true">13:33:24</td>
+               <td nowrap="true" align="right">29 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('purushotham1.conformation_conformationtest_byStatus_failed_FAIL1_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]"}
+                     Command duration or timeout: 28 milliseconds
+                     For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                     System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                     *** Element info: {Using=xpath, value=html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]}
+                     Session ID: 994e7888-ef00-4dbd-806c-8f0fadeeb3a9
+                     Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=45.0.1}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.conformation_conformationtest_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>conformationtest
+                     </div>
+                     <div>
+                        <b>Signature: </b>conformationtest()[pri:0, instance:purushotham1.conformation@1fa68b9c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:24
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:24
+                     </div>
+                     <div>
+                        <b>Duration: </b>29 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.conformation_conformationtest_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]"}
+                        Command duration or timeout: 28 milliseconds
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                        System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                        *** Element info: {Using=xpath, value=html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]}
+                        Session ID: 994e7888-ef00-4dbd-806c-8f0fadeeb3a9
+                        Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=45.0.1}]
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at purushotham1.conformation.conformationtest(conformation.java:10)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:606)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+                        Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]"}
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                        System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                        Driver info: driver.version: unknown
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10732)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12614)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12619)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12561)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="purushotham1.bookaflight_booking_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.bookaflight_booking_byStatus_failed_FAIL2_details')">booking()</a>
+               </td>
+               <td nowrap="true">13:33:23</td>
+               <td nowrap="true" align="right">33 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('purushotham1.bookaflight_booking_byStatus_failed_FAIL2_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Unable to locate element: {"method":"name","selector":"rbuyFlights"}
+                     Command duration or timeout: 28 milliseconds
+                     For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                     System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                     *** Element info: {Using=name, value=rbuyFlights}
+                     Session ID: 994e7888-ef00-4dbd-806c-8f0fadeeb3a9
+                     Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=45.0.1}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.bookaflight_booking_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>booking
+                     </div>
+                     <div>
+                        <b>Signature: </b>booking()[pri:0, instance:purushotham1.bookaflight@3385f539]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:23
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:24
+                     </div>
+                     <div>
+                        <b>Duration: </b>33 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.bookaflight_booking_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"rbuyFlights"}
+                        Command duration or timeout: 28 milliseconds
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                        System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                        *** Element info: {Using=name, value=rbuyFlights}
+                        Session ID: 994e7888-ef00-4dbd-806c-8f0fadeeb3a9
+                        Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=45.0.1}]
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+                        	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at purushotham1.bookaflight.booking(bookaflight.java:10)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:606)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+                        Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"rbuyFlights"}
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                        System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                        Driver info: driver.version: unknown
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10732)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12614)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12619)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12561)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="purushotham1.login_logintes_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.login_logintes_byStatus_passed_PASS1_details')">logintes()</a>
+               </td>
+               <td nowrap="true">13:33:10</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.login_logintes_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>logintes
+                     </div>
+                     <div>
+                        <b>Signature: </b>logintes()[pri:0, instance:purushotham1.login@10d8d767]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:10
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="purushotham1.findflight_flight_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.findflight_flight_byStatus_passed_PASS2_details')">flight()</a>
+               </td>
+               <td nowrap="true">13:33:21</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.findflight_flight_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>flight
+                     </div>
+                     <div>
+                        <b>Signature: </b>flight()[pri:0, instance:purushotham1.findflight@4c7e8bf0]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:21
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:22
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="purushotham1.selectaflight_flightselection_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.selectaflight_flightselection_byStatus_passed_PASS3_details')">flightselection()</a>
+               </td>
+               <td nowrap="true">13:33:22</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.selectaflight_flightselection_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>flightselection
+                     </div>
+                     <div>
+                        <b>Signature: </b>flightselection()[pri:0, instance:purushotham1.selectaflight@81560cc]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:22
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">purushotham1.bookaflight</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="purushotham1.bookaflight_booking_byClass_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.bookaflight_booking_byClass_FAIL1_details')">booking()</a>
+               </td>
+               <td nowrap="true">13:33:23</td>
+               <td nowrap="true" align="right">33 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('purushotham1.bookaflight_booking_byClass_FAIL1_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Unable to locate element: {"method":"name","selector":"rbuyFlights"}
+                     Command duration or timeout: 28 milliseconds
+                     For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                     System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                     *** Element info: {Using=name, value=rbuyFlights}
+                     Session ID: 994e7888-ef00-4dbd-806c-8f0fadeeb3a9
+                     Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=45.0.1}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.bookaflight_booking_byClass_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>booking
+                     </div>
+                     <div>
+                        <b>Signature: </b>booking()[pri:0, instance:purushotham1.bookaflight@3385f539]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:23
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:24
+                     </div>
+                     <div>
+                        <b>Duration: </b>33 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.bookaflight_booking_byClass_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"rbuyFlights"}
+                        Command duration or timeout: 28 milliseconds
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                        System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                        *** Element info: {Using=name, value=rbuyFlights}
+                        Session ID: 994e7888-ef00-4dbd-806c-8f0fadeeb3a9
+                        Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=45.0.1}]
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+                        	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at purushotham1.bookaflight.booking(bookaflight.java:10)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:606)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+                        Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"rbuyFlights"}
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                        System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                        Driver info: driver.version: unknown
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10732)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12614)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12619)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12561)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">purushotham1.conformation</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="purushotham1.conformation_conformationtest_byClass_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.conformation_conformationtest_byClass_FAIL1_details')">conformationtest()</a>
+               </td>
+               <td nowrap="true">13:33:24</td>
+               <td nowrap="true" align="right">29 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('purushotham1.conformation_conformationtest_byClass_FAIL1_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]"}
+                     Command duration or timeout: 28 milliseconds
+                     For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                     System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                     *** Element info: {Using=xpath, value=html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]}
+                     Session ID: 994e7888-ef00-4dbd-806c-8f0fadeeb3a9
+                     Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=45.0.1}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.conformation_conformationtest_byClass_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>conformationtest
+                     </div>
+                     <div>
+                        <b>Signature: </b>conformationtest()[pri:0, instance:purushotham1.conformation@1fa68b9c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:24
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:24
+                     </div>
+                     <div>
+                        <b>Duration: </b>29 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.conformation_conformationtest_byClass_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]"}
+                        Command duration or timeout: 28 milliseconds
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                        System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                        *** Element info: {Using=xpath, value=html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]}
+                        Session ID: 994e7888-ef00-4dbd-806c-8f0fadeeb3a9
+                        Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=45.0.1}]
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at purushotham1.conformation.conformationtest(conformation.java:10)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:606)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+                        	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+                        	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+                        Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font/b/font[2]"}
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+                        System info: host: 'OJT6', ip: '192.168.1.56', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+                        Driver info: driver.version: unknown
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10732)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12614)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12619)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/admin/AppData/Local/Temp/anonymous6742425166009773848webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12561)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">purushotham1.findflight</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="purushotham1.findflight_flight_byClass_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.findflight_flight_byClass_PASS1_details')">flight()</a>
+               </td>
+               <td nowrap="true">13:33:21</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.findflight_flight_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>flight
+                     </div>
+                     <div>
+                        <b>Signature: </b>flight()[pri:0, instance:purushotham1.findflight@4c7e8bf0]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:21
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:22
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">purushotham1.login</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="purushotham1.login_logintes_byClass_PASS1_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.login_logintes_byClass_PASS1_details')">logintes()</a>
+               </td>
+               <td nowrap="true">13:33:10</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.login_logintes_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>logintes
+                     </div>
+                     <div>
+                        <b>Signature: </b>logintes()[pri:0, instance:purushotham1.login@10d8d767]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:10
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">purushotham1.selectaflight</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="purushotham1.selectaflight_flightselection_byClass_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('purushotham1.selectaflight_flightselection_byClass_PASS1_details')">flightselection()</a>
+               </td>
+               <td nowrap="true">13:33:22</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="purushotham1.selectaflight_flightselection_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>flightselection
+                     </div>
+                     <div>
+                        <b>Signature: </b>flightselection()[pri:0, instance:purushotham1.selectaflight@81560cc]
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:33:22
+                     </div>
+                     <div>
+                        <b>End time: </b>13:33:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>
